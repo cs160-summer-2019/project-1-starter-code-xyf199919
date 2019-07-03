@@ -1,3 +1,59 @@
-li {
-    color: green;
+.cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.h1 {
+  font-size: 70px;
+  font-family: 'Indie Flower', cursive;
+}
+.h2 {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.button {
+  border-radius: 25px;
+  padding: 5px;
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.groupoffield {
+  padding-bottom: 1cm;
+}
+
+.textfield {
+  border-radius: 10px;
+  background-color: #ace9f4;
+  border-color: black;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+}
+
+.createjoin {
+  border-radius: 25px;
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+}
+
+.joinfield {
+  border-radius: 25px;
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  font-size: 17px;
 }

@@ -5,12 +5,52 @@
 <head>
 	<title>Forecast</title>
 	
-	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
-	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
+<!-- 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" /> -->
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </head>
-<body>
-	<!-- your single-location forecast interface here -->
+<body bgcolor="#ace9f4" >
+  <div class = "container">
+    <div class="p-5" style="width: 600px; align: center;">
+       <div class = "h5" id="city">BERKELEY</div>
+       <button class = "button">Edit</button>
+    </div>
+    <div class="p-5" style="width: 400px; align: center;">
+       <h1 class="display-1">63˚</h1>
+    </div>
+    <br>
+    
+    <table class="table table-sm">
+      <tbody>
+        <tr>
+          <th scope="row">6:00</th>
+          <td>sunny</td>
+          <td>56˚</td>
+        </tr>
+        <tr>
+          <th scope="row">7:00</th>
+          <td>sunny</td>
+          <td>60˚</td>
+        </tr>
+        <tr>
+          <th scope="row">8:00</th>
+          <td>cloudy</td>
+          <td>55˚</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    
+    <button class="button">ALERT: storm today 7-9 pm</button>
+  </div>
+  
+    
+
+  
+    
 </body>
 </html>
 
